@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ];
+  then
+  echo "Usage: lc file1 file2 This program is used to turn uppercase to lowercase."
+fi
+
+lcprog <$1 >$2
