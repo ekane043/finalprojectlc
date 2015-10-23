@@ -2,7 +2,7 @@
 
 if [ "$#" -ne 2 ];
   then
-  echo "Usage: lc file1 file2 This program is used to turn uppercase to lowercase."
+  echo "Usage: lc file1 file2 This program is used to turn standard input from file1 to standard output in file2, uppercase to lowercase."
 fi
 
 lcprog <$1 >$2
